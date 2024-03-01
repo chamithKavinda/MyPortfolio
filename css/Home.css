@@ -38,6 +38,12 @@ html{
     color: white;
 }
 
+#menu{
+    color: #fff;
+    font-size: 2.5rem;
+    display: none;
+}
+
 .navbar a{
     display: inline-block;
     font-size: 1.7rem;
@@ -50,4 +56,98 @@ html{
 
 .navbar a:hover,a.active{
     color: white;
+}
+
+section{
+    padding: 10rem 9% 2rem;
+    min-height: 100vh;
+}
+
+.home{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.text-content{
+    max-width: 90rem;
+}
+
+.text-content h1{
+    font-size: 70px;
+    color:white;
+    text-transform: capitalize;
+    letter-spacing: .05rem;
+    font-weight: 600;
+}
+
+.text-animation{
+    position: relative;
+    width: 55rem;
+}
+
+.text-content h4{
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+}
+
+.text-content h3{
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+}
+
+.btn-selection{
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.btn-selection .btn{
+    height: 75%;
+    width: 15rem;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: #FEA609;
+    border-radius: .8rem;
+    cursor: pointer;
+}
+
+.btn-selection .btn:hover{
+    background-color: white;
+    color: #4E4E4E;
+    font-weight: bolder;
+}
+
+.social-media{
+    margin:  2rem 0;
+}
+
+.social-media i{
+    display: inline-block;
+    font-size: 2rem;
+    padding:  4 .8rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.social-media i:hover{
+    color: #FEA609;
+}
+
+.home img{
+    width: 30vw;
+    height: 30vw;
+    margin-left: 10%;
+    background: #4E4E4E;
+    border: .5rem solid #FEA609;
+    border-radius: 50%;
+    object-position: cover;
+    position: relative;
+    
 }
