@@ -147,14 +147,9 @@ section{
 }
 
 .home img{
-    width: 30vw;
-    height: 30vw;
+    width: 450px;
+    height: 450px;
     margin-left: 10%;
-    background: #4E4E4E;
-    border: .5rem solid #FEA609;
-    border-radius: 50%;
-    object-position: cover;
-    position: relative;
     
 }
 
@@ -181,14 +176,10 @@ section{
 }
 
 .about img{
-    width: 30vw;
-    height: 30vw;
-    background: #4E4E4E;
-    border: .5rem solid #FEA609;
-    align-self: start;
-    border-radius: 50%;
-    object-position: cover;
-    position: relative;
+    width: 400px;
+    height: 400px;
+    padding-right: 2%;
+    margin-right: 10px;
 }
 
 .row{
