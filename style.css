@@ -169,6 +169,7 @@ section{
     margin-bottom: 3rem;
     font-weight: 600;
     text-align: center;
+    margin-top: 0px;
 }
 
 .title span{
@@ -325,4 +326,22 @@ section{
     margin-top: 10px;
     font-size: 25px;
     font-weight: lighter;
+}
+
+/* <!-----------------------Skills Section-----------------------> */
+
+.grid{
+    margin-left: 200px;
+    display: inline-block;
+}
+
+.frontendImg{
+    margin-left: 20px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.BackendImg{
+    height: 400px;
+    margin-top: 10px;
 }
