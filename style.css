@@ -235,3 +235,42 @@ section{
 }
 
 /* <!-----------------------Service Section-----------------------> */
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 10px; 
+    -ms-grid-column-align: center;
+    align-items: center;
+}
+
+.template1{
+    border-width: 2px;
+    width: 220px;
+    height: 150px;
+    border-color: #3E3E3E;
+    background-color: #3E3E3E;
+    border-style: solid;
+    border-radius: 5%;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.webDesign{
+    margin-left: 85px;
+    margin-top: 35px;
+}
+
+.web-title{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.template1:hover{
+    background-color: #606060;
+    border-color: #606060;
+}
