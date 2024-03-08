@@ -330,18 +330,26 @@ section{
 
 /* <!-----------------------Skills Section-----------------------> */
 
-.grid{
-    margin-left: 200px;
-    display: inline-block;
-}
+
 
 .frontendImg{
-    margin-left: 20px;
+    margin-left:200px;
     height: 400px;
     margin-top: 10px;
+    transition: background 0.5s, transform 0.5s;
 }
 
 .BackendImg{
     height: 400px;
     margin-top: 10px;
+    margin-left:120px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.frontendImg:hover{
+    transform: translateY(-15px);
+}
+
+.BackendImg:hover{
+    transform: translateY(-15px);
 }
