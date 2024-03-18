@@ -356,3 +356,95 @@ section{
 
 /* <!-----------------------project Section-----------------------> */
 
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px , 1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#FEA609);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer a{
+    margin-top: 20px;
+    color:#FEA609;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #a7a39c;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+.btn-selection-2{
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 33%;
+    margin-top: -7%;
+}
+
+.btn-selection-2 .btn{
+    height: 75%;
+    width: 15rem;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #FEA609;
+    border-radius: .8rem;
+    cursor: pointer;
+    margin-left: 75%;
+}
+
+.btn-selection-2 .btn:hover{
+    background-color: white;
+    color: #4E4E4E;
+    font-weight: bolder;
+}
