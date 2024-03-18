@@ -335,13 +335,13 @@ section{
 .frontendImg{
     margin-left:200px;
     height: 400px;
-    margin-top: 10px;
+    margin-top: 50px;
     transition: background 0.5s, transform 0.5s;
 }
 
 .BackendImg{
     height: 400px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left:120px;
     transition: background 0.5s, transform 0.5s;
 }
@@ -353,3 +353,6 @@ section{
 .BackendImg:hover{
     transform: translateY(-15px);
 }
+
+/* <!-----------------------project Section-----------------------> */
+
