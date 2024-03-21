@@ -448,3 +448,49 @@ section{
     color: #4E4E4E;
     font-weight: bolder;
 }
+
+/* <!-----------------------Contact Section-----------------------> */
+
+section form{
+    max-width: 70rem;
+    text-align: center;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+}
+
+.input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    background:#606060;
+    border: .2rem solid #FEA609;
+    outline: none;
+    border-radius: .8rem;
+    gap: 2.5rem;
+    margin: .7rem 0;
+    transition: .3s ease;
+}
+
+input::placeholder{
+    font-size: 1.5rem;
+    letter-spacing: .02rem;
+    color: white;
+}
+
+form input{
+    width: 49%;
+}
+
+input:focus,
+input:valid{
+    border: .2rem solid #FEA609;
+}
+
+textarea:focus,
+textarea:valid{
+    border: .2rem solid #FEA609;
+}
