@@ -517,3 +517,34 @@ textarea{
     color: #4E4E4E;
     font-weight: bolder;
 }
+
+/* <!-----------------------Contact Section-----------------------> */
+
+footer{
+    background: #3E3E3E;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer p{
+    font-size: 1.6rem;
+}
+
+footer i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: #FEA609;
+    border-radius: 50%;
+    font-size: 2.4rem;
+}
+
+footer i:hover{
+    background-color: white;
+    color: #4E4E4E;
+    font-weight: bolder;
+}
