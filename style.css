@@ -493,7 +493,7 @@ section{
     height: 100%;
 }
 
-.btn-selection-2{
+.btn-selection-2 a{
     width: 50rem;
     height: 5rem;
     display: flex;
@@ -501,6 +501,7 @@ section{
     align-items: flex-end;
     margin-left: 33%;
     margin-top: -7%;
+    text-decoration: none;
 }
 
 .btn-selection-2 .btn{
