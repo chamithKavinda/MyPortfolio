@@ -280,7 +280,7 @@ section{
     font-size: 19px;
 }
 
-.btn-selection-1{
+.btn-selection-1 a{
     width: 50rem;
     height: 5rem;
     display: flex;
@@ -288,6 +288,7 @@ section{
     align-items: flex-end;
     margin-left: 50%;
     margin-top: -7%;
+    text-decoration: none;
 }
 
 .btn-selection-1 .btn{
