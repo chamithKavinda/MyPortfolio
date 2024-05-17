@@ -174,12 +174,13 @@ section{
     color: white;
 }
 
-.btn-selection{
+.btn-selection a{
     width: 50rem;
     height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;    
+    text-decoration: none;
 }
 
 .btn-selection .btn{
